@@ -1,0 +1,63 @@
+
+.icono{
+    font-size: 1.5em;
+    background-color: blueviolet;    
+}
+.derecha{
+    background: rgb(223, 220, 220);
+}
+.colorbody{
+    background: rgb(236, 236, 236);
+}
+
+.circulito{
+    clip-path:circle(35% at center);
+}
+
+.titulo{
+    font-family:"calibri","Arial","Helvetica";
+    font-size: 4.2em;
+    font-weight: bold;
+}
+
+.subtitulo{
+    font-family:"Microsoft Sans Serif","Arial","Helvetica";
+    letter-spacing: 0.4em;
+    font-size: 1.5em;
+    color:rgb(99, 98, 98);    
+}
+
+hr{
+    width: 20%;
+    background-color: gray;
+    height: 7px;
+    margin-left: 0%;
+}
+
+p{
+    font-family: "Arial";
+    font-size: 1.1em;
+}
+
+.olaqase{
+    box-sizing: border-box;
+    width: 50%;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    
+    .subtitulo {
+        font-family:"Microsoft Sans Serif","Arial","Helvetica";
+        color:rgb(99, 98, 98); 
+        letter-spacing: 0em; 
+        font-size: 1em;   
+    } 
+
+    .olaqase{
+        box-sizing: border-box;
+        width: 100%;
+        
+    }
+}
