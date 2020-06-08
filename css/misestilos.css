@@ -9,9 +9,14 @@
 .colorbody{
     background: rgb(236, 236, 236);
 }
-
+.recorte{
+    height: 20%;
+    overflow: hidden;
+}
 .circulito{
-    clip-path:circle(35% at center);
+    
+    clip-path:circle(40% at center);
+   
 }
 
 .titulo{
@@ -37,6 +42,7 @@ hr{
 p{
     font-family: "Arial";
     font-size: 1.1em;
+    color: rgb(87, 86, 86);
 }
 
 .olaqase{
