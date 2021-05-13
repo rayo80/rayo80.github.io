@@ -9,10 +9,7 @@
 .colorbody{
     background: rgb(236, 236, 236);
 }
-.recorte{
-    height: 20%;
-    overflow: hidden;
-}
+
 .circulito{
     
     clip-path:circle(40% at center);
@@ -21,13 +18,13 @@
 
 .titulo{
     font-family:"calibri","Arial","Helvetica";
-    font-size: 4.2em;
+    font-size: 3.8em;
     font-weight: bold;
 }
 
 .subtitulo{
     font-family:"Microsoft Sans Serif","Arial","Helvetica";
-    letter-spacing: 0.4em;
+    letter-spacing: 0.1em;
     font-size: 1.4em;
     color:rgb(99, 98, 98);    
 }
@@ -39,7 +36,8 @@ hr{
     margin-left: 0%;
 }
 
-p{
+p a{
+    text-decoration: none;
     font-family: "Arial";
     font-size: 1.1em;
     color: rgb(87, 86, 86);
@@ -50,6 +48,12 @@ p{
     width: 50%;
 }
 
+a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
 
 @media screen and (max-width: 800px) {
 
@@ -58,12 +62,22 @@ p{
         font-family:"Microsoft Sans Serif","Arial","Helvetica";
         color:rgb(99, 98, 98); 
         letter-spacing: 0em; 
-        font-size: 1em;   
+        font-size: 1.5em;   
     } 
+
+    p{
+        font-size: 1.3em;
+    }
 
     .olaqase{
         box-sizing: border-box;
         width: 100%;
         
     }
+
+    .qr{
+        box-sizing: border-box;
+        
+    }
+    
 }
